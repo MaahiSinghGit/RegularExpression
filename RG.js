@@ -36,6 +36,8 @@ console.log(reg.test(test))
 // Outuput: True;
 
 
+
+
 // EXCES :return first occurence and its detail in array
 
 let reg2=/123/g
