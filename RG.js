@@ -26,7 +26,6 @@ let pattern =/abcd/i;
 // FUNCTIONS IN REG
 
 
-
 const test="This is a test string with 1234567890 and special characters like !@#$%^&*()_+{}[]|\\;:'<>,./?"
 
 // TEST :- check string contain pattern or not
