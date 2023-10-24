@@ -46,6 +46,8 @@ console.log(reg2.exec(test));
 // Output: ['123', index: 27, input: 'This is a test string with 1234567890 and spe…l characters like !@#$%^&*()_+{}[]|\;:'<>,./?', groups: undefined]
 
 
+
+
 // MATCH : return all the matching pattern in array formate
 
 let reg3=/st/g
