@@ -63,6 +63,8 @@ console.log(test.replace(reg4,'Set Of Character'))
 
 //Output: This is a test Set Of Character with 1234567890 and special characters like !@#$%^&*()_+{}[]|\;:'<>,./?
 
+
+
 // SEARCH: using this method it return first index of the match
 
 
