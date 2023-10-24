@@ -74,6 +74,8 @@ console.log(test.search(reg5));
 //Output:22
 
 
+
+
 //Split: using this method we split the string into array of string
 
 const reg6=/s/g
