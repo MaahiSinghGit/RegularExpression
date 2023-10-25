@@ -85,3 +85,72 @@ console.log(test.split(reg6))
 
 
 // QUANTIFIERS
+let testt="!@#$%^&*()_+-={}|[]\:;'<>,.? This is a test string with characters, strings, digits, and special characters.1234567890"
+
+const a="ab",b="abc",c="abbc", d="abbbc", e="abbbbc"
+
+// * (zero or more)
+let regg=/ab*c/i;
+console.log(reg.testt(a))
+console.log(reg.testt(b))
+console.log(reg.testt(c))
+console.log(reg.testt(d))
+console.log(reg.testt(e))
+
+// OUTPUT false true true true true
+
+
+
+// + (One or more)
+let reg1=/ab+c/i;
+console.log(reg1.test(a))
+console.log(reg1.test(b))
+console.log(reg1.test(c))
+console.log(reg1.test(d))
+console.log(reg1.test(e))
+
+// Output false true true true true
+
+
+// ? (zero or one)
+
+
+let regg2=/ab?c/i;
+console.log(reg2.test(a))
+console.log(reg2.test(b))
+console.log(reg2.test(c))
+console.log(reg2.test(d))
+console.log(reg2.test(e))
+
+
+
+
+{n} (exact n number)
+let regg3=/ab{2}c/i;
+console.log(reg3.test(a))
+console.log(reg3.test(b))
+console.log(reg3.test(c))
+console.log(reg3.test(d))
+console.log(reg3.test(e))
+
+
+//{n,} (n or more)
+let regg4=/ab{2,}c/i;
+console.log(reg4.test(a))
+console.log(reg4.test(b))
+console.log(reg4.test(c))
+console.log(reg4.test(d))
+console.log(reg4.test(e))
+
+
+// {m,n} (between m to n)
+
+let regg5=/ab{1,2}c/i;
+console.log(reg5.test(a))
+console.log(reg5.test(b))
+console.log(reg5.test(c))
+console.log(reg5.test(d))
+console.log(reg5.test(e))
+
+
+
